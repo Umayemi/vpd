@@ -1,0 +1,123 @@
+@media(max-width:960px){
+    #nav{
+        display: none;
+    }
+    #get{
+        display: none;
+    }
+    #header{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;    
+    }
+    #logo{
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right: 0px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    h1{
+        font-size: 45px;
+        width: 100%;
+        line-height: 40px;
+    }
+    #text{
+        width: 90%;
+        
+    }
+    .field{
+        width: 80%;
+        height: 50px;
+        background-color: rgba(75, 172, 199, 0.215);
+        display: flex;
+        border-radius: 15px;
+        padding-left: 10%;
+        margin-left: 0%;
+        vertical-align: middle; 
+        padding-top: 20px ;
+        margin-bottom: 30px;
+    }
+    #prprpr{
+        padding-top: 50px;
+        margin-left: 0%;
+    }
+    .p1{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -5px;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+    #section2{
+        display: block;
+            padding-left: 8%;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        
+    }
+    footer{
+        position: relative;
+    }
+    #store{
+        display: block;
+        margin: auto;
+        width: 100%;
+       text-align: center;
+       margin-top: 20px;
+    }
+    #store1{
+        margin-right: 0;
+        margin-bottom: -20px;
+        
+    }
+    h4{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    #foot-list{
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-left: 0;
+        margin-top: -50px;
+    }
+    .listed{
+        margin-top: 20px;
+    }
+    #control{
+        position: relative;
+        top: 0%;  
+        width: 100%;
+    }
+    #contact{
+        margin: auto;
+        text-align: center;
+    }
+  .foot-para1{
+    text-align: center;
+    margin-left: 15%;
+  }
+    #social-media{
+        margin: auto;
+        text-align: center;
+        margin-left: 35%;
+    }
+    #email{
+        margin-left: 25%;
+    }
+    .contact{
+        margin-left: 15%;
+    }
+    .menu-icon{
+        display: block;
+    }
+}

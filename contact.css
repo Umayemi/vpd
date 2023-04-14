@@ -1,0 +1,345 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;    
+}
+#ul{
+    display: flex;
+   list-style: none;
+   margin-top: 25px;
+  
+}
+.li{
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(16, 145, 192);
+    cursor: pointer;
+}
+#logo-img{
+    width: 120px;
+}
+#logo{
+
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 300px;
+}
+#get{
+    color:white;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#get-button{
+    background-color: rgb(26, 162, 26);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 130px;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#section1{
+    background-color: whitesmoke;
+}
+#section2{
+    background-color: whitesmoke;
+    display: flex;
+    padding-left: 8%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.country1{
+    width: 20px;
+    height: 20px;
+}
+.country{
+    width: 30px;
+    height: 35px;
+    margin-top: -5px;
+}
+#reeeeo{
+    display: flex;
+}
+#text{
+    width: 45%;
+    
+}
+.p1{
+    width: 65%;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+h1{
+    font-size: 45px;
+    width: 50%;
+    line-height: 40px;
+}
+#prprpr{
+    padding-top: 50px;
+    margin-left: 10%;
+}
+.field{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(75, 172, 199, 0.215);
+    display: flex;
+    border-radius: 15px;
+    padding-left: 20%;
+    margin-left: 15%;
+    vertical-align: middle; 
+    padding-top: 20px ;
+    margin-bottom: 30px;
+}
+.youoi{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.you{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+}
+footer{
+    background-color: rgb(12, 12, 16);
+    padding-top: 40px;
+    position: relative;
+   
+    width: 100%;
+    padding-bottom: 30px;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#store{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+#store1{
+    margin-right:20px ;
+    cursor: pointer;
+    
+}
+#foot-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 10%;
+    font-size: 12px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.listed{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+#social-media{
+    display: flex;
+    margin-left: -10px;
+}
+.socio{
+   margin-left: 10px; 
+   
+}
+#app{
+    width:20px;
+}
+.foot-para1{
+    color: white;
+    opacity: 0.5;
+}
+#iyiyy{
+    display: block;
+}
+.mail{
+    color: white;
+    margin-left: 20px;
+    margin-top: -1px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+#email{
+    display: flex;
+    margin-top: 10px;
+}
+.contact{
+    color:white;
+    opacity: 0.5;
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+.head{
+    opacity: 0.5;
+}
+#last{
+    padding-left: 10%;
+}
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+  
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.copyright{
+    color: white;
+    opacity: 0.5;
+    font-size: 12px;
+}
+h5{
+    color: rgb(22, 60, 74) ;
+    font-size: 30px;
+}
+#p6{
+    width:500px;
+    margin-top: -20px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+#menu-btn{
+    display: none;
+    position: absolute;
+}
+#menu{
+    position: absolute;
+    background-color:rgb(22, 60, 74) ;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-out;
+    left: 0;
+    z-index: 9; 
+    color: white;   
+}
+#menu-btn:checked ~ #menu{
+    max-height: 100vh;
+    
+}
+.mobile-link{
+    color: rgb(35, 88, 168);
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 15%;
+}
+#mobile-store{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 15%;
+}
+#p11-mobile{
+    font-size: 13px;
+    margin-top: 200px;
+    opacity: 0.8;
+    padding-left: 15%;
+}
+#p2-mobile{
+    font-size: 13px;
+    opacity: 0.8;
+    padding-left: 15%;
+}
+#logo-mobile{
+    background-color:rgb(22, 60, 74) ;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 300px;
+    height: 40px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: -30px;
+    padding-left: 20%;
+}
+.menu-icon{
+    position: relative;
+    padding: 20px 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: none;
+    z-index: 9999;
+}
+.icon{
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    width: 25px;
+    position: absolute;
+    transition: background 0.2s ease-out;
+    margin-top: 2px;
+}
+.icon:after{
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    width: 20px;
+    display:  block;
+    content: "";
+    top: -7px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+}
+.icon:before{
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    width: 20px;
+    display:  block;
+    content: "";
+    top: 7px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+}
+.menu-btn:checked ~ .menu-icon .icon{
+   background-color: transparent;
+}
+.menu-btn:checked ~ .menu-icon .icon:after{
+    transform: rotate(-45deg);
+    background-color: white;
+    top: 0;
+}
+.menu-btn:checked ~ .menu-icon .icon:before{
+    transform: rotate(45deg);
+    background-color: white;
+    top: 0;
+    
+}
+

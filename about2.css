@@ -1,0 +1,211 @@
+@media(max-width:960px){
+    #nav{
+        display: none;
+    }
+    #get{
+        display: none;
+    }
+    #section1{
+        background-image: url("aboutus_main_bg_m.webp");
+        background-size: 100% 100%;
+        padding-bottom:80px;
+    }
+    #header{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;    
+    }
+    #logo{
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-right: 0px;
+    }
+    #flexbox{
+        display: flex;
+        padding-top: 120px;
+        margin-left: 0px;
+        overflow: visible;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #pic{
+        width: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #pic1-mobile{
+        display: block;
+        width: 60%;
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #show{
+        width: 100%;
+        margin-left: 0px;
+        margin-left: -20%;
+    }
+    #sec2-img{
+        width: 100%;
+        padding-top: 50px;
+    }
+    h2{
+        color: #163C4A;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .SVG{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    #pic1{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #mini{
+        display: block;
+    }
+    #sec2-text{
+        margin-left: 0px;
+        width: 85%;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    .p7{
+        width: 100%;
+        opacity: 0.8;
+        font-size: 14px;
+      
+    }
+    #section2{
+       display: block;
+        padding-top: 0px;
+        background-color: whitesmoke;
+        padding-bottom: 100px;
+    }
+    h4{
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        width: 50px;
+    }
+    #section3{
+       flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 5%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .user{
+        margin-bottom: 20px;
+        width: 100px;
+    }
+    .head3{
+        margin-left: 0px;
+    }
+    .p11{
+        color: #135e7a;
+        font-size: 12px;
+        margin-top: 0px;
+        width: 100px;
+    
+    }
+    #sec4-para{
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+        margin-top: -50px;
+        opacity: 0.8;
+    }
+    #team{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        justify-content: center;
+    }
+    .sec-para1{
+        width: 120px;
+    }
+    #root{
+        width: 100px;
+        border: 5px solid white;
+        border-radius: 30px;
+    }
+    .team-img{
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+    footer{
+        position: relative;
+    }
+    #store{
+        display: block;
+        margin: auto;
+        width: 100%;
+       text-align: center;
+       margin-top: 20px;
+    }
+    #store1{
+        margin-right: 0;
+        margin-bottom: -20px;
+        
+    }
+    h4{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    #foot-list{
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-left: 0;
+        margin-top: -50px;
+    }
+    .listed{
+        margin-top: 20px;
+    }
+    #control{
+        position: relative;
+        top: 0%;  
+        width: 100%;
+    }
+    #contact{
+        margin: auto;
+        text-align: center;
+    }
+  .foot-para1{
+    text-align: center;
+    margin-left: 15%;
+  }
+    #social-media{
+        margin: auto;
+        text-align: center;
+        margin-left: 35%;
+    }
+    #email{
+        margin-left: 25%;
+    }
+    .contact{
+        margin-left: 15%;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
