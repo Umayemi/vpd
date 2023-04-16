@@ -33,6 +33,7 @@
        border-bottom-left-radius: 10px;
        
     }
+
     #empty{
         width: 20%;
         height: 5px;
@@ -285,7 +286,7 @@
     }
     #roll{
         display: block;
-        width: 100%;
+        
     }
     #section3{
         width: 100%;
@@ -399,10 +400,38 @@
     }
     #foot-list{
         display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 15px;
+        padding-top: 100px;
+        padding-bottom: 30px;
         margin: auto;
         text-align: center;
-        padding-left: 0;
-        margin-top: -50px;
+    }
+    #iyiyy{
+        justify-content: center;
+    
+       }
+       #social-media{
+        justify-content: center;
+       }
+       #email{
+        justify-content: center;
+       }
+       .mail{
+        color: white;
+        margin-left: 10px;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+    #mail-svg{
+        justify-content: center;
+    }
+    #app{
+        width:30px;
+    }
+    ul{
+        padding: 0;
     }
     .listed{
         margin-top: 20px;
@@ -412,25 +441,8 @@
         top: 0%;  
         width: 100%;
     }
-    #contact{
-        margin: auto;
-        text-align: center;
-    }
-  .foot-para1{
-    text-align: center;
-    margin-left: 15%;
-  }
-    #social-media{
-        margin: auto;
-        text-align: center;
-        margin-left: 35%;
-    }
-    #email{
-        margin-left: 25%;
-    }
-    .contact{
-        margin-left: 15%;
-    }
+  
+  
     #wrap:hover>div>#personal{
         transform: translate(0%,0%);
         transition: .8s;

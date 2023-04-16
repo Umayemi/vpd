@@ -13,7 +13,9 @@ body{
     position: fixed;
     
 }
-
+a:visited{
+    color: white;
+}
 #header{
     display: flex;
     justify-content: space-between;

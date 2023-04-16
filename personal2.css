@@ -68,6 +68,15 @@
     }
     #sec2-img{
         margin-top: 50px;
+        padding-left: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    #frame{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    
     }
     #p1-mobile{
         display: block;
@@ -165,18 +174,112 @@
     }
   .foot-para1{
     text-align: center;
-    margin-left: 15%;
+    margin-left: 0%;
   }
     #social-media{
         margin: auto;
         text-align: center;
-        margin-left: 35%;
+        margin-left: 0%;
     }
     #email{
-        margin-left: 25%;
+        margin-left: 0%;
     }
     .contact{
-        margin-left: 15%;
+        margin-left: 0%;
+    }
+    #foot-list{
+        display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 15px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    #iyiyy{
+        justify-content: center;
+    
+       }
+       #social-media{
+        justify-content: center;
+       }
+       #email{
+        justify-content: center;
+       }
+       .mail{
+        color: white;
+        margin-left: 10px;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+    footer{
+        position: relative;
+    }
+    #store{
+        display: block;
+        margin: auto;
+        width: 100%;
+       text-align: center;
+       margin-top: 20px;
+    }
+    #store1{
+        margin-right: 0;
+        margin-bottom: -20px;
+        
+    }
+    h4{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    #foot-list{
+        display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 15px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    #iyiyy{
+        justify-content: center;
+    
+       }
+       #social-media{
+        justify-content: center;
+       }
+       #email{
+        justify-content: center;
+       }
+       .mail{
+        color: white;
+        margin-left: 10px;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+    #mail-svg{
+        justify-content: center;
+    }
+    #app{
+        width:30px;
+    }
+    ul{
+        padding: 0;
+    }
+    .listed{
+        margin-top: 20px;
+    }
+    #mail-svg{
+        justify-content: center;
+    }
+    #app{
+        width:30px;
+    }
+    ul{
+        padding: 0;
     }
     .menu-icon{
         display: block;

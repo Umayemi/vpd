@@ -30,6 +30,12 @@ body{
     color: rgb(16, 145, 192);
     cursor: pointer;
 }
+.li-a{
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
 #logo-img{
     width: 100px;
 }
