@@ -35,18 +35,23 @@
     }
 
     #empty{
-        width: 20%;
+        width: 50%;
         height: 5px;
         background-color: white;
         position: relative;
-        top: 70%;
-        left: 40%;
+        left: 0%;
     }
     #pampam{
         position: relative;
-        top: 69.3%;
-        left: 60%;
-        width: 35%;
+        width: 100%;
+        left: 0;
+    }
+    #whole{
+        display: flex;
+        position: relative;
+        top: 70%;
+        width:55% ;
+        left: 35%;
     }
     #start{ 
         background-color:white;
